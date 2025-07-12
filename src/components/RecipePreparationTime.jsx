@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import ToggleVisibility from '../utils/ToggleVisibility'
 
 export default function RecipePreparationTime({ preparationTime }) {
   const [visible, setVisible] = useState(true)
